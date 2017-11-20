@@ -25,9 +25,9 @@ Or you can use docker image co3moz/yutub (screw installation)
 Usage
 ---------------
 
-http://__localhost:6060_/_yca6UsllwYs_
+http://_localhost:6060_/_yca6UsllwYs_
 Streams "Daft Punk - Around The World"
 
-http://__localhost:6060_/_yca6UsllwYs_/dl
+http://_localhost:6060_/_yca6UsllwYs_/dl
 Downloads "Daft Punk - Around The World.mp3"
 
