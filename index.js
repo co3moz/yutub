@@ -90,6 +90,7 @@ async function downloadMusic(req, res, next) {
   if (stillLoading[videoId] == true) {
     var waitSequence = setInterval(function () {
       if (!stillLoading[videoId]) {
+        clearInterval(waitSequence); // avoid infinite shit.
         finished(videoId, res, dl);
       }
     }, 1000);
