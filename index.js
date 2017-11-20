@@ -149,8 +149,8 @@ app.get('/archive', (req, res) => {
   })
 });
 
-app.get(/([A-Za-z0-9\-_]{5,20})\/dl/, downloadMusic);
-app.get(/([A-Za-z0-9\-_]{5,20})/, downloadMusic);
+app.get(/^([A-Za-z0-9\-_]{5,20})\/dl$/, downloadMusic);
+app.get(/^([A-Za-z0-9\-_]{5,20})$/, downloadMusic);
 
 
 app.all('*', (req, res) => {
