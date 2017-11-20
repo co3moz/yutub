@@ -85,7 +85,7 @@ async function downloadMusic(req, res, next) {
   if (req.path == '/favicon.ico') return next();
 
   const dl = req.path.indexOf('/dl') != -1;
-  const videoId = dl ? req.path.substring(1, req.path.length - 4) : req.path.substring(1);
+  const videoId = dl ? req.path.substring(1, req.path.length - 3) : req.path.substring(1);
 
   if (stillLoading[videoId] == true) {
     var waitSequence = setInterval(function () {
