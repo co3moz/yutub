@@ -1,6 +1,6 @@
 FROM node:7.8.0-alpine
 
-WORKDIR /src/youtube
+WORKDIR /srv/youtube
 
 COPY package*.json ./
 
