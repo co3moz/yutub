@@ -111,7 +111,7 @@ async function downloadMusic(req, res, next) {
   stillLoading[videoId] = true;
 
   youtubeDL.exec('http://www.youtube.com/watch?v=' + videoId,
-    ['-x', '--audio-format', 'mp3', '-o', ytdlFolderPattern],
+    ['-x', '--audio-format', 'mp3', '-o', ytdlFolderPattern, '--postprocessor-args', "-threads 4"],
     { cwd: __dirname }, function (err, data) {
 
       delete stillLoading[videoId];
