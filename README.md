@@ -20,7 +20,9 @@ It uses lovely [youtube-dl software](https://github.com/rg3/youtube-dl) with [no
 
 Also you need ffprobe for webm to mp3 conversation.
 
-Or you can use docker image co3moz/yutub (screw installation)
+![](http://images6.fanpop.com/image/photos/32900000/-How-I-Met-Your-Mother-Season-8-Episode-9-Lobster-Crawl-barney-stinson-32951470-245-245.gif)
+
+or you can use docker image co3moz/yutub (screw installation)
 
 Usage
 ---------------
