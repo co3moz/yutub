@@ -1,0 +1,13 @@
+{
+  "name": "yutub",
+  "version": "1.0.0",
+  "description": "Basic youtube mp3 streaming application",
+  "main": "index.js",
+  "author": "co3moz",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "youtube-dl": "^1.12.2"
+  }
+}
